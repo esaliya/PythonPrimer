@@ -1,0 +1,17 @@
+adj:
+  0:
+    1: &id001 {"f": "zero_one_edge_func"}
+  1:
+    0: *id001
+    2: &id002 {}
+  2:
+    1: *id002
+    3: &id003 {}
+  3:
+    2: *id003
+
+node:
+  0: {"node_name": "this is node zero"}
+  1: {}
+  2: {}
+  3: {}
